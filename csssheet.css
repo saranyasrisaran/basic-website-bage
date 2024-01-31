@@ -1,0 +1,136 @@
+:root{
+    --yellow:#FF9800;
+    --white:whitesmoke;
+    --green:#65B741
+}
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+   
+    background-image: url("spicy\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+#logo{
+    display: flex;
+    flex: 3;
+        text-decoration: none;
+        color:yellow;
+        font-size: 2em;
+    }
+    nav{
+        display: flex;
+        flex: 2;
+    }
+    nav a{
+        flex: 1;
+    }
+    nav a:hover{
+        color: green;
+    }
+}
+.login{
+    text-decoration: none;
+    color:yellow;
+    font-size: 1.5em;
+    
+}
+.menu{
+    text-decoration: none;
+    color:yellow;
+    font-size: 1.5em;
+}
+.location{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.5em;
+}
+.maintext{
+    display:flex ;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.line1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    
+}
+.line2{
+    font-weight: bolder;
+    margin-top: 1em;
+    color: aliceblue;
+}
+.line3{
+    font-weight: bolder;
+    margin-top: 1em;
+    color: aliceblue;
+}
+ .button{
+    width: 20vh;
+    margin-top: 1em;
+    border-radius: 10px;
+    padding: .8em;
+    
+
+}
+
+
+.maintext button{
+    background-color:aquamarine;
+    font-size: 1.5em;
+}
+.menu1{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    background-color:rgb(56, 52, 52);
+    color: aliceblue;
+}
+#menuheading ,#lockhead{
+    background-color:rgb(56, 52, 52);
+    font-size: 2em;
+    color: rgb(184, 72, 72);
+    display: flex;
+    justify-content: center;
+
+}
+.menu1 th{
+    color: green;
+    font-size: 1.5em;
+}
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu1 tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .7em;
+}
+.menu1 td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu1 td:nth-child(2){
+    justify-self: right;
+}
+.locations{
+background-color:rgb(56, 52, 52) ;
+color: aliceblue;
+display: flex;
+flex-wrap: wrap;
+}
+.locations h2{
+    color: green;
+    font-size: 1.5em;
+    margin-bottom: .7em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 200px;
+
+}
